@@ -60,10 +60,10 @@ The following statement will instantiate an instance of a Scanner object and sto
 Scanner input = new Scanner(System.in);
 ```
 
-You used several Scanner methods in a previous lab. Those methods would read a single *word* as input. For this program we want to read everything the user types until they press the enter key. You can use the readLine method to accomlpish this.
+You used several Scanner methods in a previous lab. Those methods would read a single *word* as input. For this program we want to read everything the user types until they press the enter key. You can use the nextLine method to accomplish this.
 
 ```
-input.readLine()
+input.nextLine()
 ```
 
 Don't forget to assign the return value to a variable!
@@ -106,7 +106,7 @@ Remember to make your program respond appropriately to messages that contain the
 
 Pro Tip:
 
-There is are string methods that will convert all the characters of a string to lowercase or uppercase. You can use these methods to easily match the string "dog" with "Dog", "DOG", and "DoG".
+There are string methods that will convert all the characters of a string to lowercase or uppercase. You can use these methods to easily match the string "dog" with "Dog", "DOG", and "DoG".
 
 ```
 String input = "Some TeXt wiTh wEIrd CapiTAlizaTIoN"
